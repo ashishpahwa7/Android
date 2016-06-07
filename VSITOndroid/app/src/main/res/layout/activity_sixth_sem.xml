@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.ash.vsitondroid.SixthSem">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Data Ware Housing &amp; Data Mining"
+        android:id="@+id/button41"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="54dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mobile Computing"
+        android:id="@+id/button42"
+        android:layout_below="@+id/button41"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Linux Environment"
+        android:id="@+id/button43"
+        android:layout_below="@+id/button42"
+        android:layout_alignEnd="@+id/button42" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Artificial Intelligence"
+        android:id="@+id/button44"
+        android:layout_below="@+id/button43"
+        android:layout_toEndOf="@+id/button45" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Button"
+        android:id="@+id/button45"
+        android:layout_alignBottom="@+id/button44"
+        android:layout_toStartOf="@+id/button43" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bio Informatics"
+        android:id="@+id/button46"
+        android:layout_below="@+id/button41"
+        android:layout_toEndOf="@+id/button43" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Network Programming"
+        android:id="@+id/button47"
+        android:layout_below="@+id/button48"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Network Security"
+        android:id="@+id/button48"
+        android:layout_below="@+id/button49"
+        android:layout_toEndOf="@+id/button44" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Multimedia &amp; Its Applications"
+        android:id="@+id/button49"
+        android:layout_alignBottom="@+id/button43"
+        android:layout_alignStart="@+id/button46" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Practical – X Linux Lab"
+        android:id="@+id/button50"
+        android:layout_below="@+id/button47"
+        android:layout_alignEnd="@+id/button47" />
+
+</RelativeLayout>

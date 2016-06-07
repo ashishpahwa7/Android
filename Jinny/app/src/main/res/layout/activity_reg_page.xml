@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:background="#adb3ab"
+              android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Step 1..."
+        android:id="@+id/textView2"
+        android:layout_gravity="center_horizontal"/>
+
+    <EditText
+        android:layout_width="154dp"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:layout_marginTop="50dp"
+        android:ems="10"
+        android:id="@+id/fname"
+        android:hint="First Name"
+        android:textColorHint="#114282"/>
+
+    <EditText
+        android:layout_width="175dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/username"
+        android:layout_gravity="right"
+        android:hint="User Name"
+        android:textColorHint="#114282"/>
+
+    <EditText
+        android:layout_width="147dp"
+        android:layout_marginTop="20dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/lname"
+        android:hint="Last Name"
+        android:textColorHint="#114282"/>
+
+    <EditText
+        android:layout_width="179dp"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:layout_marginLeft="200dp"
+        android:id="@+id/password"
+        android:hint="Password"
+        android:textColorHint="#114282"/>
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:id="@+id/dob"
+        android:hint="                            dd  -  mm  -  yyyy"
+        android:foregroundTint="#f14545"
+        android:textColorHint="#114282"/>
+
+    <EditText
+        android:layout_width="215dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/gender"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="20dp"
+
+        android:hint="Gender"
+        android:textColorHint="#114282"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:id="@+id/submit"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center_horizontal"/>
+
+</LinearLayout>
